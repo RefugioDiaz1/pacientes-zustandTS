@@ -71,3 +71,8 @@ export default defineConfig([
   },
 ])
 ```
+
+
+
+Se usó react-hook-form
+

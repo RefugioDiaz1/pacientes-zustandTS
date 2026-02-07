@@ -1,3 +1,6 @@
+import PatientForm from "./components/PatientForm";
+import PatientList from "./components/PatientList";
+
 function App() {
   return (
     <>
@@ -6,6 +9,11 @@ function App() {
           Seguimiento de Pacientes {""}
           <span className="text-indigo-600">Veterinaria</span>
         </h1>
+        <div className="mt-12 md:flex">
+
+        <PatientForm/>
+        <PatientList/>
+        </div>
       </div>
     </>
   );
